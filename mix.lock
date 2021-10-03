@@ -1,4 +1,10 @@
-%{"earmark": {:hex, :earmark, "1.2.5", "4d21980d5d2862a2e13ec3c49ad9ad783ffc7ca5769cf6ff891a4553fbaae761", [], [], "hexpm"},
-  "ex_doc": {:hex, :ex_doc, "0.18.3", "f4b0e4a2ec6f333dccf761838a4b253d75e11f714b85ae271c9ae361367897b7", [], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm"},
-  "iconv": {:hex, :iconv, "1.0.7", "f81eb6b8c977b1fd078515937fdce64292d64c6102353fbbfe57db580f4689d1", [], [{:p1_utils, "1.0.11", [hex: :p1_utils, repo: "hexpm", optional: false]}], "hexpm"},
-  "p1_utils": {:hex, :p1_utils, "1.0.11", "a471f80644d4b464fa67572affddda7e95df5d4b099624b8907f5726e8a1769c", [], [], "hexpm"}}
+%{
+  "earmark": {:hex, :earmark, "1.4.13", "2c6ce9768fc9fdbf4046f457e207df6360ee6c91ee1ecb8e9a139f96a4289d91", [:mix], [{:earmark_parser, ">= 1.4.12", [hex: :earmark_parser, repo: "hexpm", optional: false]}], "hexpm"},
+  "earmark_parser": {:hex, :earmark_parser, "1.4.12", "b245e875ec0a311a342320da0551da407d9d2b65d98f7a9597ae078615af3449", [:mix], [], "hexpm"},
+  "ex_doc": {:hex, :ex_doc, "0.19.3", "3c7b0f02851f5fc13b040e8e925051452e41248f685e40250d7e40b07b9f8c10", [:mix], [{:earmark, "~> 1.2", [hex: :earmark, repo: "hexpm", optional: false]}, {:makeup_elixir, "~> 0.10", [hex: :makeup_elixir, repo: "hexpm", optional: false]}], "hexpm"},
+  "iconv": {:hex, :iconv, "1.0.7", "f81eb6b8c977b1fd078515937fdce64292d64c6102353fbbfe57db580f4689d1", [:rebar3], [{:p1_utils, "1.0.11", [hex: :p1_utils, repo: "hexpm", optional: false]}], "hexpm"},
+  "makeup": {:hex, :makeup, "1.0.5", "d5a830bc42c9800ce07dd97fa94669dfb93d3bf5fcf6ea7a0c67b2e0e4a7f26c", [:mix], [{:nimble_parsec, "~> 0.5 or ~> 1.0", [hex: :nimble_parsec, repo: "hexpm", optional: false]}], "hexpm"},
+  "makeup_elixir": {:hex, :makeup_elixir, "0.15.0", "98312c9f0d3730fde4049985a1105da5155bfe5c11e47bdc7406d88e01e4219b", [:mix], [{:makeup, "~> 1.0", [hex: :makeup, repo: "hexpm", optional: false]}, {:nimble_parsec, "~> 1.1", [hex: :nimble_parsec, repo: "hexpm", optional: false]}], "hexpm"},
+  "nimble_parsec": {:hex, :nimble_parsec, "1.1.0", "3a6fca1550363552e54c216debb6a9e95bd8d32348938e13de5eda962c0d7f89", [:mix], [], "hexpm"},
+  "p1_utils": {:hex, :p1_utils, "1.0.11", "a471f80644d4b464fa67572affddda7e95df5d4b099624b8907f5726e8a1769c", [:rebar3], [], "hexpm"},
+}

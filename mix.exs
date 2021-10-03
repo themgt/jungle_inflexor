@@ -29,7 +29,7 @@ defmodule Jungle.Inflexor.Mixfile do
   defp deps do
     [
       {:iconv, "~> 1.0.7"},
-      {:ex_doc, "~> 0.18.3"}
+      {:ex_doc, "~> 0.19.0"}
     ]
   end
 
